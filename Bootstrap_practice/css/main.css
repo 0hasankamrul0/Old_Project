@@ -1,0 +1,27 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+#skill{
+    /* padding: 400px 0!important; */
+}
+#prog {
+
+}
+.height {
+    min-height: 100vh;
+}
+.height-80 {
+    min-height: 80vh;
+}
+.title-underline {
+    width: 300px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+.about-pic{
+    background : url(../imgs/a.jpg)center/cover no-repeat fixed;
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+}
