@@ -6,7 +6,7 @@ These Projects were done as a part of learning process.
 * ### CSE370 Project
     Database related project
 * ### Scapper
-    Collecting Student ID, Name and Other Info as JSON
+    Collecting Student ID, Name and Other Info as JSON<br />
     The file is added as student_info_db.txt
     #### Dependency : requests, PyPDF2
     To work write :
@@ -15,7 +15,7 @@ These Projects were done as a part of learning process.
     python3 -W ignore scrapper.py
     ```
 * ### Status bar and Waiting Spinning
-    spinster.sh - Waiting Spinning                      |/-\|
+    spinster.sh - Waiting Spinning                      |/-\| <br />
     progress_bar.py - Shows Progress and Percentage     ####        | 4%
 
     
