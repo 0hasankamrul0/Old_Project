@@ -14,5 +14,8 @@ These Projects were done as a part of learning process.
     ```bash
     python3 -W ignore scrapper.py
     ```
+* ### Status bar and Waiting Spinning
+    spinster.sh - Waiting Spinning                      |/-\|
+    progress_bar.py - Shows Progress and Percentage     ####        | 4%
 
     
