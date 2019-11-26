@@ -1,0 +1,4 @@
+QEMUDIR is where it will be installed
+ISOFILE is source of ISO file
+OS is OS name
+I added a local portforward : if you ssh/putty to localhost:2222, you will reach the SSH daemon of your VM. Beware that firewalld or iptables might block traffic, depending on the way you installed Linux.
