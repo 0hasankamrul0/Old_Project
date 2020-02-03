@@ -1,3 +1,4 @@
+# This is for Asus laptop 300GB 
 timedatectl set-ntp true
 timedatectl set-timezone Asia/Dhaka
 timedatectl status
@@ -17,7 +18,7 @@ mount /dev/sdb2 /mnt
 pacstrap /mnt base linux-lts linux-firmware zsh vim netctl wget git man-db man-pages 
 genfstab -U /mnt >> /mnt/etc/fstab
 cp /etc/netctl/wlan0-EDITH /mnt/etc/netctl/
-cat /mnt/arch_install_script | tail -n 11
+cat /mnt/arch_install_script | tail -n 10
 arch-chroot /mnt bash arch_install_script
 reboot
 
