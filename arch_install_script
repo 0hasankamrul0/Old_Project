@@ -19,7 +19,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 cp /etc/netctl/wlan0-EDITH /mnt/etc/netctl/
 cat /mnt/arch_install_script | tail -n 11
 arch-chroot /mnt bash arch_install_script
-exit
+reboot
 
 ln -sf /usr/share/zoneinfo/Asia/Dacca /etc/localtime
 hwclock --systohc
@@ -31,4 +31,3 @@ echo -e"127.0.0.1	kamrul\n::1		kamrul\n127.0.1.1	kamrul.arch	kamrul" >> /etc/hos
 pacman -Syy
 pacman -S grub 
 passwd
-exit
