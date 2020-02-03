@@ -20,6 +20,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 cp /etc/netctl/wlan0-EDITH /mnt/etc/netctl/
 cat arch_install_script | tail -n 10 >> /mnt/actual_pc_script
 arch-chroot /mnt bash actual_pc_script
+umount -R /mnt
 reboot
 
 ln -sf /usr/share/zoneinfo/Asia/Dacca /etc/localtime
