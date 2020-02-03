@@ -17,5 +17,6 @@ These Projects were done as a part of learning process.
 * ### Status bar and Waiting Spinning
     spinster.sh - Waiting Spinning                      |/-\| <br />
     progress_bar.py - Shows Progress and Percentage     ####        | 4%
-
-    
+* ### qemu Script for preparing and running qemu in Windows
+    run 1, 2, and 3.
+    make sure to read readme
