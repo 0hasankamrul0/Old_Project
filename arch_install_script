@@ -18,8 +18,8 @@ mount /dev/sdb2 /mnt
 pacstrap /mnt base linux-lts linux-firmware zsh vim netctl wget git man-db man-pages 
 genfstab -U /mnt >> /mnt/etc/fstab
 cp /etc/netctl/wlan0-EDITH /mnt/etc/netctl/
-cat /mnt/arch_install_script | tail -n 10
-arch-chroot /mnt bash arch_install_script
+cat arch_install_script | tail -n 10 >> /mnt/actual_pc_script
+arch-chroot /mnt bash actual_pc_script
 reboot
 
 ln -sf /usr/share/zoneinfo/Asia/Dacca /etc/localtime
