@@ -8,8 +8,8 @@ echo -e "d\n1\nd\n2\nd\ng\nn\n\n\n+500M\nn\n\n\n+290G\nY\nn\n\n\n\nY\nw" | fdisk
 echo -e "set 1 bios_grub on\nset 3 swap on\nquit"| parted /dev/sdb
  
 
-mkfs.ext4 /dev/sdb1
-mkfs.ext4 /dev/sdb2
+mkfs.ext4 -F /dev/sdb1
+mkfs.ext4 -F /dev/sdb2
 mkswap /dev/sdb3
 swapon /dev/sdb3
 mount /dev/sdb2 /mnt
