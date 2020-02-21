@@ -4,9 +4,13 @@ If in future, it is necessary to use certificate, use this variable
 certificate can be found in https://curl.haxx.se/docs/caextract.html
 
 '''
-import requests
-import re
-import os
+try:
+    import requests
+    import re
+    import os
+except ModuleNotFoundError as error:
+    print(f'Please Install {error.name}')
+    
 root_dir = 'PDF_Archieve'
 cert = False
 
